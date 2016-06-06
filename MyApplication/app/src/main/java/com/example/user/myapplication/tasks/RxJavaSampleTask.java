@@ -2,7 +2,8 @@ package com.example.user.myapplication.tasks;
 
 import android.support.annotation.NonNull;
 
-import android.database.Observable;
+import rx.Observable;
+import rx.functions.Func1;
 
 /**
  * Created by user on 06.06.16.
@@ -13,3 +14,7 @@ public class RxJavaSampleTask {
         return Observable.just(version >= 21);
     }
 }
+
+
+//https://habrahabr.ru/company/e-Legion/blog/272459/
+// 32:59
